@@ -1,11 +1,11 @@
 require_relative "./student.rb"
-class ChattyStudent
-  def method_name
-
+class ChattyStudent < Student
+  def hello
+    super
   end
 
-  def method_name
-
+  def raise_hand
+    super 
   end
 
 end
